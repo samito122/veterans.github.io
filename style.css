@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    color: rgb(0, 0, 165);
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: rgb(223, 2, 252);
+}
+.nav-bar{ 
+    height: 60px;
+    top: 0;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(11, 10, 22);
+    width: 100%;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item li a:hover{
+    color: skyblue;
+}
+.nav-item a{
+    color: rgb(6, 6, 29);
+}
+.header-container-home{
+    background:  url(img/45e4c86297d0e555a5cbde17a5948d88.jpg); 
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+} 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.logo h1{
+    font-size: 40px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item ul{
+    display: flex;
+    margin-right: 30px;
+    
+}
+.nav-item li{
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 25px;
+    margin-right: 10px;
+    height: 40px;
+    width: 110px;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: blue;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px blue solid;
+    height: 3.5em;
+    
+    
+}
+
+.btn a{
+    color: black;
+    font-size: 1.em;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+.logo-center{
+    font-size: 45px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    color: white;
+    text-shadow: 5px  5px 20px rgb(0, 0, 0);
+}
+
+
+.learn-more{
+    position: absolute;
+    width: 100px;
+    top: 400px;
+    left: 500px;
+}
+.learn-more button{
+    background-color: blue;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+.learn-more button:hover{
+    background-color: transparent;
+    border: 2px blue solid;
+    width: 220px;
+    height: 60px;
+}
+.learn-more a{
+    font-size: xx-large;
+    color: white;
+    padding: auto;
+}
+.vision{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    top: 600px;
+    left: 630px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px  5px 10px;
+    
+}
+.mission{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    top: 600px;
+    left: 350px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px  5px 10px;
+}
+.vision h2{
+    line-height: 1.2em;
+}
+.mission h2{
+    line-height: 1.2em;
+}
+.mission  p{
+    padding-left: 0px;
+}
+.container-welcome{
+    box-sizing: border-box;
+    height: 550px;
+    width: 800px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+    position: relative;
+    justify-content: space-around;
+}
+.welcome-note .img{
+    left: -80px;
+    position: absolute;
+    max-height: 500px;
+    min-height: 500px;
+    height: 500px;
+    width: 450px;
+}
+.welcome-note .note{
+    position: absolute;
+    left: 390px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    content: normal;
+    border-radius: 2px;
+    height: 500px;
+    width: 450px;
+    
+    
+}
+.welcome-note .note h3{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.welcome-note .note h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 20px;
+}
+.welcome-note .note p{
+    line-height: 1.5em;
+    font-weight: 700;
+    font-size: large;
+}
+.what-do{
+    position: relative;
+}
+.h2-what{
+    left: 100px;
+    position: absolute;
+    top: 10px;
+}
+.h1-what{
+    left: 100px;
+    position: absolute;
+    top: 35px;
+}
+.what-we-do-container{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 400px;
+}
+.health{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 80px;
+    width: 310px;
+    height: 230px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px  10px 15px;
+    padding: 10px;
+    top: 250px;
+}
+.health:hover{
+    width: 320px;
+    height: 240px;
+    box-shadow: 15px  15px 15px;
+}
+.social-well-being{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 230px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px  10px 15px;
+    padding: 10px;
+    left: 415px;
+    margin-left: 20px;
+    top: 250px;
+}
+.social-well-being:hover{
+    width: 320px;
+    height: 240px;
+    box-shadow: 15px  15px 15px;
+}
+
+.employability{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 230px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px  10px 15px;
+    padding: 10px;
+    left: 770px;
+    margin-left: 20px;
+    top: 250px;
+}
+.employability:hover{
+    width: 320px;
+    height: 240px;
+    box-shadow: 15px  15px 15px;
+}
+.gallery-item img{
+    min-height: 350px;
+    max-height: 350px;
+    max-width: 350px;
+    min-height: 350px;
+}
+.gallery-container{
+    background-color: rgb(215, 235, 238);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding-left: 5%;
+}
+.gallery-container img{
+    padding: 5px 0 40px 40px;
+}
+.gallery-container img:hover{
+    width: 
+    height
+}
+.gallery-container h2{
+    text-align: center;
+    padding: 20px;
+}
+.donate-buttom{
+    position: relative;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/45e4c86297d0e555a5cbde17a5948d88.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.donate-buttom button{
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: blue;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    position: absolute;
+    top: 180px;
+    left: 750px;
+    
+}
+.donate-buttom .bttn a{
+    font-size: 30px;
+    font-weight: 500;
+}
+.donate-buttom h1{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    text-align: right;
+}
+main{
+    margin-bottom: 0;
+}
+/* footer */
+footer{
+    margin-bottom: 0 ;
+    outline: none;
+    margin-top: 0;
+    background-color: rgb(37, 33, 33);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer .logo{
+    display: flex;
+    flex-direction: column;
+}
+.about-us-footer {
+    margin-left: 40px ;
+    margin-top: 0;
+    padding: 40px;
+}
+.about-us-footer a{
+    font-size: 20px;
+    padding: 10px;
+}
+.about-us-footer a:hover{
+    color: skyblue;
+}
+.about-us-footer svg{
+    padding-top: 7px;
+}
+.gallery-footer div{
+   
+    width: 400px;
+}
+.gallery-footer img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copy-right{
+    background-color: rgb(12, 11, 11);
+    height: 40px;
+    color: #9b9090;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+.footer-copy-right a:hover{
+    color: skyblue;
+}
+
+/* about */
+
+.header-container-about{
+    background-image: linear-gradient( to top, rgba(0, 0, 255, 0.4), rgba(132, 0, 255, 0.4)) ,url(img/about-header.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: right;
+    background-clip: content-box;
+    position: relative;
+}
+.home-message h1{
+    font-size: 70px;
+}
+.home-message{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: white;
+}
+.about-us-message{
+    box-sizing: border-box;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin-left: 200px;
+    position: relative;
+
+}
+.about-us-message  .img{
+    position: absolute;
+    left: -200px;
+    max-height: 500px;
+    min-height: 500px;
+    height: 400px;
+    width: 100%;
+    top: 0;
+}
+.about-us-message .about-note{
+    position: absolute;
+    left: 180px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    content: normal;
+    border-radius: 2px;
+    height: 450px;
+    
+      
+}
+.nav-menu{
+    display: block;
+}
+@media (max-width: 1024px) {
+
+    .nav-item{
+        display: none;
+    }
+
+    .mission{
+        left: 120px
+    }
+    .vision{
+        left: 420px;
+    }
+    .welcome{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-menu{
+        display: inline-block;
+        margin: 8px 20px;
+    }
+    .nav-menu:hover .nav-item{
+        display: block;
+    }
+}
