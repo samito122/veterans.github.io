@@ -13,9 +13,7 @@ a{
     text-decoration: none;
     color: white;
 }
-a:active{
-    color: rgb(0, 0, 165);
-}
+
 ul{
     list-style: none;
 }
