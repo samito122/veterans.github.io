@@ -1,0 +1,129 @@
+
+/* color */
+.color-white{
+    color: white;
+}
+.color-blue{
+    color: blue;
+}
+.color-black{
+    color: black;
+}
+.color-bb{
+    color: rgb(79, 52, 155);
+}
+.text-dark-blue{
+    color: rgb(0, 0, 124);
+}
+/* background-color */
+.background-white{
+    background-color: white;
+}
+.background-blue{
+    background-color: blue;
+}
+
+/* button on hover */
+.small-btn-hover:hover{
+    background-color: transparent;
+    border: 2px blue solid;
+    height: 44px;
+}
+
+.p-0-10-0-10{
+    padding: 0 10px 0 10px;
+} 
+/* font-size */
+.h1-40px{
+    font-size: 40px;
+}
+.h1-50px{
+    font-size: 50px;
+}
+.p-24px{
+    font-size: 24px;
+}
+.h1-20px{
+    font-size: 20px;
+}
+.h1-25px{
+    font-size: 25px;
+}
+.h3-20px{
+    font-size: 20px;
+}
+.h3-40px{
+    font-size: 40px;
+}
+.h2-20px{
+    font-size: 20px;
+}
+.h2-40px{
+    font-size: 40px;
+}
+.font-xlarge_{
+    font-size: x-large;
+}
+.font-large{
+    font-size: large;
+}
+.font-medium{
+    font-size: medium;
+}
+.h3-30px{
+    font-size: 30px;
+}
+/* display-type */
+.display-flex{
+    display: flex;
+}
+.display-grid{
+    display: grid;
+}
+/* position-type */
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+/* svg-size */
+
+svg.h20-w-20{
+    height: 20px;
+    width: 20px;
+    
+}
+.upper-case{
+    text-transform: uppercase;
+}
+.center{
+    padding: 0 auto;
+
+}
+/* over-flow */
+.overflow-hidden{
+    overflow: hidden;
+}
+.social-icon{
+    fill: aliceblue;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+
+}
+.social .face-book:hover{
+    fill: blue;
+}
+.social .whatsapp:hover{
+    fill: green;
+}
+.social .youtube:hover{
+    fill: red;
+}
+.footer .social-icon{
+    margin-top: 100px;
+}
+
