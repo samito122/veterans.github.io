@@ -38,9 +38,7 @@ ul{
 .nav-item li a:hover{
     color: skyblue;
 }
-.nav-item a{
-    color: rgb(6, 6, 29);
-}
+
 .header-container-home{
     background:  url(img/45e4c86297d0e555a5cbde17a5948d88.jpg); 
     height: 700px;
